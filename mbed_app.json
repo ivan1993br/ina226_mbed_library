@@ -1,0 +1,17 @@
+{
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true,
+            "target.network-default-interface-type": "ETHERNET"
+        },
+        "DISCO_F407VG": {
+            "target.extra_labels_add": [
+                "STM32F4",
+                "STM32F407",
+                "STM32F407xG"
+            ],
+            "target.features_remove": ["UNITY"],
+            "target.macros_remove": ["UNITY_INCLUDE_CONFIG_H"]
+       }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "ina226_mbed_library",
+    "keywords": "ina226, mbed",
+    "description": "INA226 High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor with I2C Compatible Interface",
+    "authors":
+    {
+        "name": "Branilson",
+        "url": "http://www.pjrc.com/teensy/td_libs_OneWire.html"
+    },
+    "version": "1.0",
+    "export": {
+        "include": "ina226_mbed_library"
+    },
+    "frameworks": "mbed",
+    "platforms": "ststm32"
+}
