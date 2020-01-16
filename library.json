@@ -9,7 +9,21 @@
     },
     "version": "1.0",
     "export": {
-        "include": "ina226_mbed_library"
+        "include": "ina226_mbed_library",
+        "exclude": [
+            "ci",
+            "examples/",
+            "examples/Polling_a_single_device",
+            "img",
+            "test/",
+            ".gitignore"
+          ]
+    },
+    "build": {
+        "srcFilter": [
+          "-<*>",
+          "+<src/ina226.cpp>"
+        ]
     },
     "frameworks": "mbed",
     "platforms": "ststm32"
